@@ -11,6 +11,7 @@ def prime?(number)
     true
   else
     false
+  end
 end
 
 #given a number
