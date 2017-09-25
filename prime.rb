@@ -1,5 +1,6 @@
 def prime?(number)
-  1..number
+  1..number.to_a 
+  
 end
 
 #given a number
