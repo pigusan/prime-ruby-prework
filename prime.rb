@@ -1,6 +1,6 @@
 def prime?(number)
   array = (1..number).to_a
-
+  array.each do |numbers|
 
 end
 
