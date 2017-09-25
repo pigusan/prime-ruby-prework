@@ -1,7 +1,15 @@
 def prime?(number)
   array = (1..number).to_a
+  number_of_factors = 0
   array.each do |numbers|
-
+    if (number / numbers #is a whole number)
+      number_of_factors += 1
+    end
+  end
+  if (number_of_factors == 2)
+    true
+  else 
+    false
 end
 
 #given a number
