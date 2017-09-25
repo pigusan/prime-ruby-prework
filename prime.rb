@@ -3,7 +3,7 @@ def prime?(number)
   number_of_factors = 0
   array.each do |numbers|
     checking_if_factor = number/numbers
-    if (checking_if_factor).kind_of? Integer
+    if checking_if_factor.is_a?(Integer)
       number_of_factors += 1
     end
   end
