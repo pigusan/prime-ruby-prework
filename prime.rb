@@ -2,8 +2,6 @@ def prime?(number)
   array = (1..number).to_a
   number_of_factors = 0
   array.each do |numbers|
-    number = number + .0
-    numbers = numbers + .0
     checking_if_factor = number/numbers
     if checking_if_factor.is_a? Integer
       number_of_factors += 1
